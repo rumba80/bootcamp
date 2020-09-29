@@ -37,6 +37,11 @@
   &> .swiper-button-next {
     right: 10px;
   } 
+
+  &> .swiper-button-disabled {
+    opacity: 0;
+  }
+
   &-pagination {
     display: flex;
     justify-content: center;
